@@ -42,7 +42,7 @@ class Metrics4Notifications extends StudipPlugin implements SystemPlugin
 
     function update($event, $subject) {
         // count every event
-        Metrics::increment(strtolower($event));
+        Metrics::increment('plugin.notification.' . strtolower($event));
 
         // count each activated navigations every 10th time
         if ($event === 'NavigationDidActivateItem') {

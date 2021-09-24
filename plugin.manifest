@@ -1,7 +1,7 @@
 pluginname=Metrics4Notifications
 pluginclassname=Metrics4Notifications
 origin=luniki
-version=1.1.0
+version=1.1.1
 studipMinVersion=3.1
 studipMaxVersion=5.0.99
 description=Mit diesem Plugin werden alle Notifications des NotificationCenters auch an installierte MetricsPlugins weitergeleitet.
